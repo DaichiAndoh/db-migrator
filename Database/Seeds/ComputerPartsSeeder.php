@@ -5,7 +5,10 @@ namespace Database\Seeds;
 use Database\AbstractSeeder;
 
 class ComputerPartsSeeder extends AbstractSeeder {
+    // TODO: tableName文字列の割り当て
     protected ?string $tableName = 'computer_parts';
+
+    // TODO: tableColumns配列の割り当て
     protected array $tableColumns = [
         [
             'data_type' => 'string',
@@ -65,7 +68,9 @@ class ComputerPartsSeeder extends AbstractSeeder {
         ]
     ];
 
-    public function createRowData(): array {
+    public function createRowData(): array
+    {
+        // TODO: createRowData()メソッドの実装
         return [
             [
                 'Ryzen 9 5900X',
